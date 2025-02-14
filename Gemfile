@@ -65,3 +65,5 @@ end
 gem "tailwindcss-rails", "~> 3.0"
 
 gem "pg", "~> 1.5"
+
+gem 'prometheus-client'
