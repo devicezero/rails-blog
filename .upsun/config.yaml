@@ -37,8 +37,8 @@ applications:
         source_path: "tmp"
 
       "grafana":
-        source: "grafana"
-        source_path: "storage"
+        source: "storage"
+        source_path: "grafana"
 
     # The web key configures the web server running in front of your app.
     # More information: https://docs.upsun.com/create-apps/app-reference.html#web
