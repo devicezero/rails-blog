@@ -19,6 +19,7 @@ applications:
     # More information: https://docs.upsun.com/create-apps/app-reference.html#relationships
     relationships:
       database: "database:postgresql"
+      cache: "cache:redis"
 
 
     # Mounts define directories that are writable after the build is complete.
@@ -135,6 +136,8 @@ applications:
 services:
   database:
     type: postgresql:15 # All available versions are: 15, 14, 13, 12, 11
+  cache:
+    type: redis:7.2
 
 
 
