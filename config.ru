@@ -5,6 +5,8 @@ require_relative "config/environment"
 require 'prometheus/middleware/collector'
 require 'prometheus/middleware/exporter'
 
+require 'datadog/profiling/preload'
+
 use Prometheus::Middleware::Collector
 use Prometheus::Middleware::Exporter
 
